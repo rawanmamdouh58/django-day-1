@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Add Course {% endblock %}
+
+{% block content %}
+<div class="container mt-4 p-4 border rounded shadow bg-light">
+  <h2 class="mb-4 text-center">Add Course</h2>
+  
+  <form method="post">
+    
+    <div class="mb-3">
+      <label for="CourseName" class="form-label">Course Name</label>
+      <input type="text" class="form-control" id="CourseName" name="name" placeholder="Enter Course name" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="CourseId" class="form-label">Course ID</label>
+      <input type="number" class="form-control" id="CourseId" name="id" placeholder="Enter Course ID" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Add Course</button>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Add Trainee {% endblock %}
+
+{% block content %}
+<div class="container mt-4 p-4 border rounded shadow bg-light">
+  <h2 class="mb-4 text-center">Add Trainee</h2>
+  
+  <form method="post">
+    
+    <div class="mb-3">
+      <label for="traineeName" class="form-label">Trainee Name</label>
+      <input type="text" class="form-control" id="traineeName" name="name" placeholder="Enter trainee name" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="traineeId" class="form-label">Trainee ID</label>
+      <input type="number" class="form-control" id="traineeId" name="id" placeholder="Enter trainee ID" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Add Trainee</button>
+  </form>
+</div>
+{% endblock %}
