@@ -4,7 +4,7 @@ from django.shortcuts import render ,redirect
 
 
 def traineeList(request):
-    trainees=[{"id":1,"name":"Ahmed"},{"id":2,"name":"Ayat"},{"id":3,"name":"Ali"}]
+    trainees=[{"id":1,"name":"Ahmed"},{"id":2,"name":"rawan"},{"id":3,"name":"mamdouh"}]
     return render(request,'listtrainee.html',{"trainees":trainees})
 
 
