@@ -2,7 +2,7 @@
 
 ## Project Overview
 ITlan is a Django-based web application that manages trainees and courses. The project consists of multiple apps, including a **trainee management system** and a **course management system**, as well as authentication functionalities.
-![alt text](assets/image.png)
+
 ![alt text](assets/image2.png)
 ![alt text](assets/image3.png)
 ![alt text](assets/image4.png)
